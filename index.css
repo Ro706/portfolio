@@ -217,3 +217,43 @@ main hr{
       transform: rotate(360deg);
     }
   }
+
+.photo{
+    display: flex;
+    border: 2px solid white;
+    width: 300px;
+    float:right;
+    margin-right:500px;
+    height: 300px;
+    margin-top:-300px;
+    border-radius: 80%;
+    background:linear-gradient(-45deg, #f9f3f3 0%, #32025e 100% );
+}
+.photo img{
+    width: 300px;
+    margin-left: -2px;
+    margin-bottom: 1px;
+    border-radius: 50%;
+}
+.about{
+    display:relative;
+    margin: 10px;
+    width: 600px;
+    margin-top: -250px ;
+    margin-left: 300px ;
+}
+.about button{
+    margin: 10px;
+    width: 100px;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    font-weight: 1000;
+    border: 2px solid rgb(0, 0, 0);
+    background: linear-gradient(-45deg, #f9f3f3 0%, #ff2db9 100% );
+    border-radius: 10px;
+}
+.about button:hover{
+    background: linear-gradient(-45deg, #ff2db9 0%, #f9f3f3 100% );
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
