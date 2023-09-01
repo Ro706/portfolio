@@ -90,7 +90,7 @@ main hr{
     display: flex;
     flex-direction: column;
     justify-content: end;
-    padding: 12px;
+    padding: 9px;
     gap: 12px;
     border-radius: 8px;
     cursor: pointer;
@@ -227,7 +227,8 @@ main hr{
     height: 300px;
     margin-top:-300px;
     border-radius: 80%;
-    background:linear-gradient(-45deg, #f9f3f3 0%, #32025e 100% );
+    border: 1px solid  rgb(18, 18, 62) ;
+    background-color: rgb(18, 18, 62);
 }
 .photo img{
     width: 300px;
@@ -256,4 +257,14 @@ main hr{
     background: linear-gradient(-45deg, #ff2db9 0%, #f9f3f3 100% );
     border: 2px solid rgb(0, 0, 0);
     color: rgb(0, 0, 0);
+}
+
+@media screen {
+    .photo{
+        display: none;
+    }
+    .about{
+        display: none;
+    }  
+    
 }
